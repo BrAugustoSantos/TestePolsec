@@ -1,0 +1,28 @@
+{
+  "name": "testepolsec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrAugustoSantos/TestePolsec.git"
+  },
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "bcrypt": "^3.0.4",
+    "body-parser": "1.18.3",
+    "circular-json": "^0.5.9",
+    "express": "4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.13",
+    "request": "2.88.0"
+  },
+  "author": "Bruno Augusto",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
